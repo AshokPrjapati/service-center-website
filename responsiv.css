@@ -1,0 +1,105 @@
+@media only screen and (max-width:980px){
+    .menu{
+        display: block;
+        display: flex;
+    }
+    .hide{
+        display: none;
+    }
+    .logo{
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        transition: all 0.3s linear;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    nav ul li{
+        margin: 1rem 0;
+    }
+    .menu ul li{
+        transition: 0.3s;
+        height: .4rem;
+    }
+    .cross ul #bar-1{
+        transform: translateY(1rem) rotate(-45deg);
+    }
+    .cross ul #bar-2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .cross #bar-3{
+        transform: translateY(-1rem) rotate(45deg);
+    }
+    .down{
+        margin-left: 1rem;
+    }
+    
+    .drop-down{
+        width: max-content;
+        height: max-content;
+        font-size: 1.5rem;
+        position: relative;
+        display: none;
+    }
+    
+    nav ul li:hover > ul{
+        top: 1.5rem;
+        display: block;
+        transition: .3s linear;
+    }
+    
+    .drop-down li{
+        position: relative;
+        border: none;
+        border-top: none;
+        padding: 0.5rem 0;
+    }
+    
+ }
+ @media only screen and (max-width:500px){
+    nav ul{
+        width: 100%;
+    }
+    
+    .img{
+        margin-left: 3%;
+        padding: .2rem 0;
+    }
+    .menu{
+         width: 5.0rem;
+        height: 5.0rem;
+        margin-right: 1.5rem;
+    }
+     .menu ul li{
+        margin: .3.5rem;
+        height: .2rem;
+        border: .05rem solid rgb(253, 158, 16);
+     }
+     .bg{
+        padding-top: 3rem;
+     }
+     .block{
+        display: block;
+     }
+     .foot{
+        width: 100%;
+     }
+     .call{
+        opacity: 1;
+        visibility: visible;
+     }
+     .copyright{
+        margin-bottom: 5rem;
+     }
+ }
