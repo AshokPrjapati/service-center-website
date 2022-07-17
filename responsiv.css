@@ -65,11 +65,17 @@
         border-top: none;
         padding: 0.5rem 0;
     }
+    .mySlides img{
+        height: 400px;
+        object-fit: cover;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px grey;
+    }
     
  }
  @media only screen and (max-width:500px){
     nav ul{
-        width: 100%;
+        width: 90%;
     }
     
     .img{
@@ -89,6 +95,12 @@
      .bg{
         padding-top: 3rem;
      }
+     .mySlides img{
+        height: 200px;
+        object-fit: cover;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px grey;
+    }
      .block{
         display: block;
      }

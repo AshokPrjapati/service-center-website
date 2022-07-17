@@ -58,6 +58,12 @@ nav ul li a:hover{
 .down{
     margin-left: 1rem;
 }
+.mySlides img{
+  height: 550px;
+  object-fit: cover;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px grey;
+}
 
 .drop-down{
     background-color: black;
@@ -113,6 +119,8 @@ nav ul li:hover > ul{
 
 .banner{
     width: 100%;
+    height: min-content;
+    object-fit: cover;
     box-shadow: 0 .1rem .5rem rgb(95, 111, 115);
 }
 
