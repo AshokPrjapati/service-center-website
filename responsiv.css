@@ -71,6 +71,9 @@
         border: 2px solid black;
         box-shadow: 5px 5px 5px grey;
     }
+    .btn{
+        display: block;
+     }
     
  }
  @media only screen and (max-width:500px){
@@ -95,10 +98,14 @@
      .bg{
         padding-top: 3rem;
      }
+     .btn{
+        display: block;
+     }
      .mySlides img{
         height: 200px;
         object-fit: cover;
         border: 2px solid black;
+        border-radius: 5px;
         box-shadow: 5px 5px 5px grey;
     }
      .block{

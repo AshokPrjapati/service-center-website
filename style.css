@@ -16,10 +16,11 @@ body{
 
 .header{
     width: 100%;
-    height: auto;
+    height: 11rem;
     align-items: center;
     background-color: black;
     position: fixed;
+    z-index: 999;
 }
 
 .img{
@@ -62,7 +63,7 @@ nav ul li a:hover{
   height: 550px;
   object-fit: cover;
   border: 2px solid black;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 5px 5px 5px black;
 }
 
 .drop-down{
@@ -112,6 +113,22 @@ nav ul li:hover > ul{
     border-radius: .5rem;
     list-style: none;
  }
+ .btn{
+    font-size: 2rem;
+    color:  #fff;
+    background-color: rgb(240 149 34);
+    padding: 1rem;
+     position: absolute;
+     top: 30%;
+     left: 45%;
+     border: none;
+     border-radius: 5px;
+     display: none;
+ }
+ .btn a{
+    color:  #fff;
+ }
+
 
  #home{
     margin-top: 10rem;
