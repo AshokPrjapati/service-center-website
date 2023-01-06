@@ -1,4 +1,4 @@
-# service-center-website
+# Service-Center-Website
 A static website for home appliances service center. 
 ## Tech-Stacks
  - HTML
